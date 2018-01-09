@@ -1,0 +1,188 @@
+body,html {
+	height: 100%;
+    font-family: bookman;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("pexels-photo-39811.jpeg"); 
+    background-size: cover;
+    height: 100vh;
+}
+
+.title {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  display: inline-flex;
+
+}
+
+h1 {
+	text-transform: uppercase;
+ 	font-size: 4rem;
+ 	white-space: nowrap;
+	overflow: hidden; 
+	border-right: .15em solid white; 
+	margin: 0 auto; 
+	letter-spacing: .11em; 
+	animation: typing 5s steps(30, end), blink-caret .2s step-end infinite alternate;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+/* The navigation bar */
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.nav a {
+	font-family: bookman;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change background on mouse-over */
+.nav a:hover {
+    background-color: #111;
+    color: #2E8B57;
+}
+
+
+.helloworld {
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border:5px solid #663399;
+    font-family: bookman;
+}
+
+.bio {
+	color: black;
+	font-size: 19px;
+	text-align: justify;
+	padding-left: 290px;
+	padding-right: 290px;
+	padding-bottom: 20px;
+}
+
+.personalphoto {
+	padding-top: 70px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 17px;
+	font-family: bookman;
+	padding-top: 40px;
+	padding-left: 100px;
+	padding-bottom: 10px;
+}
+
+h4 {
+	font-size: 17px;
+	font-family: bookman;
+	padding-top: 10px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+
+h5 {
+	font-size: 17px;
+	font-family: bookman;
+	padding-top: 10px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+
+
+.educationcoursework {
+
+	padding-left: 200px;
+	padding-bottom: 20px;
+}
+
+.educ {
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	padding-bottom: 20px;
+
+}
+
+.bc {
+	padding-left: 200px;
+	padding-bottom: 20px;
+	font-size: 21px;
+	font-style: bold;
+	font-family: georgia;
+}
+
+.university {
+	color: #2E8B57;
+	position: relative;
+	top: -1650px;
+	left: 210px;
+	text-decoration: none;
+
+}
+
+.idtech {
+	position: relative;
+	top: -1220px;
+	left: 210px;
+	text-decoration: none;
+}
+
+.github {
+	position: relative;
+	top: 20px;
+	left: 740px;
+	text-decoration: none;
+
+}
+
+.linkedin {
+	position: relative;
+	top: 85px;
+	left: 670px;
+	text-decoration: none;
+}
+
+.icons {
+    color: #2E8B57;
+}
