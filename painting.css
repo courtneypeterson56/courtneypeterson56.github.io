@@ -1,12 +1,20 @@
 body {
 	background: #F0F8FF;
-	font-family: bookman;
-    margin-top:70px;
+	font-family: roboto;
+    margin: 0;
+    padding-top: 70px;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url(Fonts/Roboto-Thin.ttf);
+	font-style: normal;
+	font-weight: 100;
 }
 
 h1 {
 	text-align: center;
-	font-family: bookman;
+	font-family: roboto;
 	font-size: 40px;
 	margin: auto;
 
@@ -14,7 +22,7 @@ h1 {
 
 h2 {
 	font-size: 22px;
-	font-family: bookman;
+	font-family: roboto;
 	text-align: center;
 	margin: auto;
 }

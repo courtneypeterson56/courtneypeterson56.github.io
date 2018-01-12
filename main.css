@@ -1,17 +1,31 @@
 body,html {
 	height: 100%;
-    font-family: bookman;
     overflow-y: auto;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+  	-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url(Fonts/Roboto-Thin.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: 'roboto medium';
+	src: url(Fonts/Roboto-Medium.ttf);
+	font-style: normal;
+	font-weight: 100;
 }
 
 header {
 	background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url("pexels-photo-39811.jpeg"); 
+    ), url("pexels-photo.jpeg"); 
     background-size: cover;
     height: 100vh;
 }
@@ -57,6 +71,7 @@ h1 {
     position: fixed; /* Set the navbar to fixed position */
     top: 0px; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    z-index: 99999;
 }
 
 /* Links inside the navbar */
@@ -89,10 +104,11 @@ ul {
     overflow: hidden;
     background-color: #333;
     border:5px solid #663399;
-    font-family: bookman;
+    font-family: roboto;
 }
 
 .bio {
+	font-family: roboto ;
 	color: black;
 	font-size: 19px;
 	text-align: justify;
@@ -108,7 +124,7 @@ ul {
 
 h3 {
 	font-size: 17px;
-	font-family: bookman;
+	font-family: roboto;
 	padding-top: 40px;
 	padding-left: 100px;
 	padding-bottom: 10px;
@@ -116,7 +132,7 @@ h3 {
 
 h4 {
 	font-size: 17px;
-	font-family: bookman;
+	font-family: roboto;
 	padding-top: 10px;
 	padding-left: 100px;
 	padding-bottom: 50px;
@@ -124,7 +140,7 @@ h4 {
 
 h5 {
 	font-size: 17px;
-	font-family: bookman;
+	font-family: roboto;
 	padding-top: 10px;
 	padding-left: 100px;
 	padding-bottom: 50px;
@@ -141,6 +157,7 @@ h5 {
 	border-bottom: 1px solid black;
 	font-size: 20px;
 	padding-bottom: 20px;
+	font-family: roboto;
 
 }
 
@@ -149,40 +166,87 @@ h5 {
 	padding-bottom: 20px;
 	font-size: 21px;
 	font-style: bold;
-	font-family: georgia;
+	font-family: roboto;
 }
 
 .university {
 	color: #2E8B57;
 	position: relative;
-	top: -1650px;
+	top: -1780px;
 	left: 210px;
 	text-decoration: none;
-
 }
 
 .idtech {
 	position: relative;
-	top: -1220px;
-	left: 210px;
+	top: -1350px;
+	left: 200px;
 	text-decoration: none;
 }
 
 .github {
 	position: relative;
-	top: 20px;
-	left: 740px;
+	left: 720px;
 	text-decoration: none;
+	bottom: 0%;
 
 }
 
 .linkedin {
 	position: relative;
-	top: 85px;
-	left: 670px;
+	left: 655px;
 	text-decoration: none;
+	bottom: -8.5%;
+
 }
 
 .icons {
     color: #2E8B57;
 }
+
+.resumetest, .resumetest:link, .resumetest:visited {
+  text-decoration: none;
+  color: #2E8B57;
+}
+
+.resume {
+	font-family: roboto;
+	text-decoration: none;
+	font-size: 30px;
+	position: relative;
+	text-align: center;
+	top: -340px;
+	text-decoration: none;
+	color: #2E8B57;
+}
+
+.resumetest {
+  position: relative;
+}
+.resumetest:after {
+  content: '';
+  position: absolute;
+  bottom: -.4em;
+  left: 50%;
+  right: 50%;
+  height: 1px;
+  background: currentColor;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+.resumetest:hover:after {
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+.link2:before {
+  position: absolute;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  left: -10px;
+  color: #eee;
+  opacity: .3;
+  font-weight: 100;
+  font-size: .8em;
+}
+
