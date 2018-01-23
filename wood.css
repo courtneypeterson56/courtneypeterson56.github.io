@@ -1,0 +1,57 @@
+
+body {
+	background: #F0F8FF;
+	font-family: roboto;
+    padding-top: 70px;
+    margin: 0;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url(Fonts/Roboto-Thin.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+h1 {
+	text-align: center;
+	font-family: roboto;
+	font-size: 40px;
+	margin: auto;
+
+}
+
+h2 {
+	font-size: 22px;
+	font-family: roboto;
+	text-align: center;
+	margin: auto;
+
+}
+
+/* The navigation bar */
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.nav a {
+	font-family: bookman;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change background on mouse-over */
+.nav a:hover {
+    background-color: #111;
+    color: #2E8B57;
+}
