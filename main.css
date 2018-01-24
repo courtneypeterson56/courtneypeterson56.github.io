@@ -95,6 +95,7 @@ h1 {
 
 .helloworld {
 	text-align: center;
+	font-size: 20px;
 }
 
 ul {
@@ -104,13 +105,13 @@ ul {
     overflow: hidden;
     background-color: #333;
     border:5px solid #663399;
-    font-family: roboto;
+    font-family: garamond;
 }
 
 .bio {
-	font-family: roboto ;
+	font-family: garamond ;
 	color: black;
-	font-size: 19px;
+	font-size: 20px;
 	text-align: justify;
 	padding-left: 290px;
 	padding-right: 290px;
@@ -123,24 +124,24 @@ ul {
 }
 
 h3 {
-	font-size: 17px;
-	font-family: roboto;
+	font-size: 19px;
+	font-family: garamond;
 	padding-top: 40px;
 	padding-left: 100px;
 	padding-bottom: 10px;
 }
 
 h4 {
-	font-size: 17px;
-	font-family: roboto;
+	font-size: 19px;
+	font-family: garamond;
 	padding-top: 10px;
 	padding-left: 100px;
 	padding-bottom: 50px;
 }
 
 h5 {
-	font-size: 17px;
-	font-family: roboto;
+	font-size: 19px;
+	font-family: garamond;
 	padding-top: 10px;
 	padding-left: 100px;
 	padding-bottom: 50px;
@@ -155,9 +156,9 @@ h5 {
 
 .educ {
 	border-bottom: 1px solid black;
-	font-size: 20px;
+	font-size: 22px;
 	padding-bottom: 20px;
-	font-family: roboto;
+	font-family: palatino;
 
 }
 
@@ -166,7 +167,7 @@ h5 {
 	padding-bottom: 20px;
 	font-size: 21px;
 	font-style: bold;
-	font-family: roboto;
+	font-family: palatino;
 }
 
 .university {
@@ -178,10 +179,17 @@ h5 {
 }
 
 .idtech {
-	position: relative;
-	top: -1350px;
-	left: 200px;
-	text-decoration: none;
+
+text-decoration: none;
+position: fixed;
+top:0px;
+left: 0px;
+right:0;
+margin-right: auto;
+margin-left: auto;
+width:50px; – The width of the area you want your icons to appear in
+height:300px; – The height of the area you want your icons to appear in
+z-index:999999;
 }
 
 .github {
@@ -210,7 +218,7 @@ h5 {
 }
 
 .resume {
-	font-family: roboto;
+	font-family: palatino;
 	text-decoration: none;
 	font-size: 30px;
 	position: relative;
